@@ -1,0 +1,10 @@
+/usr/local/bin/python3.11 /Users/courtneypigford/school_env/streaming-02-multiple-processes/process_streaming_Pigford.py
+(base) courtneypigford@Courtneys-MacBook-Air streaming-02-multiple-processes % /usr/local/bin/python3.11 /Users/courtneypigford/school_env/streaming-02-multiple-proc
+esses/process_streaming_Pigford.py
+2023-09-03 18:10:28,819 - INFO - ===============================================
+2023-09-03 18:10:28,819 - INFO - Starting fake streaming process.
+2023-09-03 18:10:28,819 - INFO - Starting to stream data from test.csv to ('localhost', 9999).
+2023-09-03 18:10:28,819 - INFO - Opened for reading: test.csv.
+2023-09-03 18:10:28,819 - INFO - Skipped header row: ['test']
+2023-09-03 18:10:28,819 - ERROR - An error occurred: too many values to unpack (expected 10)
+(base) courtneypigford@Courtneys-MacBook-Air streaming-02-multiple-processes % 
