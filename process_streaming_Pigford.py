@@ -25,10 +25,10 @@ INPUT_FILE_NAME = "test.csv"
 
 def prepare_message_from_row(row):
     """Prepare a binary message from a given row."""
-    Manufacturer, Model, Prod. year, Category, Mileage, Cylinders, Doors, Wheel, Color, Airbags= row
+    Manufacturer, Model, Prod. year, Category, Mileage= row
     # use an fstring to create a message from our data
     # notice the f before the opening quote for our string?
-    fstring_message = f"[{Manufacturer}, {Model}, {Prod. year}, {Category}, {Mileage}, {Cylinders}, {Doors}, {Wheel}, {Color}, {Airbags}]"
+    fstring_message = f"[{Manufacturer}, {Model}, {Prod. year}, {Category}, {Mileage}]"
 
     # prepare a binary (1s and 0s) message to stream
     MESSAGE = fstring_message.encode()
